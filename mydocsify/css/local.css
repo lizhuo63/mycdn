@@ -1,0 +1,47 @@
+/*一级标题 (#)*/
+h1 span {
+    font-size: 18px;
+    display: inline-block;
+    background: #2ca9e1;
+    padding: 10px 18px;
+    border-radius: 8px;
+    box-shadow: 2px 3px 5px #50616d;
+    margin-top:20px;
+}
+/*二级标题 (##)*/
+.markdown-section h2 {
+    margin-top: 20px;
+}
+h2 span {
+    font-size: 18px;
+    padding: 1px 5px;
+    border: 6px solid #e0f9b5;
+    background: #f8f3d4;
+    border-radius: 8px;
+}
+/*三级标题 (###)*/
+.markdown-section h3 {
+    margin-top: 20px;
+}
+h3 span {
+    font-size: 18px;
+    padding: 1px 5px;
+    border: 6px solid #99ddcc;
+    background: #defcf9;
+    border-radius: 8px;
+}
+/*一级列表 (*)*/
+.markdown-section ul li {
+    font-size: 18px;
+    color: #2792c3;
+}
+/*二级列表（* \n *)*/
+.markdown-section ul li ul li a{
+    font-size: 18px;
+    color: #48c0a3;
+}
+/*三级列表（* \n * \n *)*/
+.markdown-section ul li ul li ul li a{
+    font-size: 18px;
+    color: #9079ad;
+}
